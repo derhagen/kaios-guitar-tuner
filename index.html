@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Guitar Tuner</title>
+        <meta name="description" content="Guitar Tuner">
+
+        <!--
+          viewport allows you to control how mobile browsers will render your content.
+          width=device-width tells mobile browsers to render your content across the
+          full width of the screen, without being zoomed out (by default it would render
+          it at a desktop width, then shrink it to fit.)
+          Read more about it here:
+          https://developer.mozilla.org/Mozilla/Mobile/Viewport_meta_tag
+        -->
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/app.css">
+
+        <script type="text/javascript" src="js/app.js" defer></script>
+        <script type="text/javascript" src="js/softkeys.js" defer></script>
+
+        <script type="text/javascript" src="js/libs/audio-processor.js" defer></script>
+
+    </head>
+    <body id="app">
+        <div class="tuner">
+            <div class="middle-mark"></div>
+            <div class="arrow"></div>
+            <div class="note-circle"></div>
+            <div class="footer">
+                <div class="softkey-left"><h5>About</h5></div>
+                <div class="frequency"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
