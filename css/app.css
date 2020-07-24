@@ -21,78 +21,104 @@ p {
 }
 
 
+.tuner {
+	width: 100%;
+	height: 100%;
+	background-color: #3D3D3D;
+	position: relative;
+}
+
+.note-circle {
+	background-color: #3D3D3D;
+	border-radius: 100%;
+	position: absolute;
+	border: 5px solid #C5C5C5;
+	text-align: center;
+	vertical-align: middle;
+	color: #C5C5C5;
+	font-size: 30px;
+}
+
+.middle-mark{
+	top: 10px;
+	width: 6px;
+	height: 20px;
+	position: absolute;
+	background-color:  #C5C5C5;
+}
+
+.arrow{
+	width: 30px;
+	top: 20px;
+	position: absolute;
+
+	box-sizing:border-box;
+	transition: transform 0.1s ease;
+	transform-origin: bottom;
+
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+
+.good .arrow {
+	border-bottom-color: #4ecdc4;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	color: #C5C5C5;
+}
+
+.softkey-left {
+	position: absolute;
+	left: 0.5rem;
+	bottom: 0.5rem;
+}
+
+.frequency{
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
+}
+
 /* KaiOS portrait devices (240x320) */
 @media only screen and (orientation : portrait) {
-
-	.tuner {
-		width: 100%;
-		height: 100%;
-		background-color: #3D3D3D;
-		position: relative;
-	}
-
-
 	.note-circle {
-		width: 100px;
-		height: 100px;
 		left: 65px;
 		top: 145px;
-		background-color: #3D3D3D;
-		border-radius: 100%;
-		position: absolute;
-		border: 5px solid #C5C5C5;
-		text-align: center;
-		vertical-align: middle;
+		width: 100px;
+		height: 100px;
 		line-height: 100px;
-		color: #C5C5C5;
-		font-size: 30px;
 	}
 
 	.middle-mark{
-		width: 6px;
-		height: 20px;
 		left: 117px;
-		top: 10px;
-		position: absolute;
-		background-color:  #C5C5C5;
 	}
 
 	.arrow {
-		width: 30px;
 		left: 105px;
-		top: 20px;
-		position: absolute;
-
-		box-sizing:border-box;
-		transition: transform 0.1s ease;
-		transform-origin: bottom;
-
-		border-left: 15px solid transparent;
-		border-right: 15px solid transparent;
 		border-bottom: 180px solid #ff6b6b;
 	}
+}
 
-	.good .arrow {
-		border-bottom-color: #4ecdc4;
+/* KaiOS landscape devices (320x240) */
+@media only screen and (orientation : landscape) {
+	.note-circle {
+		left: 117.5px;
+		top: 85px;
+		width: 75px;
+		height: 75px;
+		line-height: 75px;
 	}
 
-	.footer {
-		width: 100%;
-		bottom: 0px;
-		position: absolute;
-		color: #C5C5C5;
+	.middle-mark{
+		left: 157px;
 	}
 
-	.softkey-left {
-		position: absolute;
-		left: 0.5rem;
-		bottom: 0.5rem;
+	.arrow {
+		left: 145px;
+		border-bottom: 100px solid #ff6b6b;
 	}
-
-	.frequency{
-		position: absolute;
-		right: 0.5rem;
-		bottom: 0.5rem;
-	}
-
 }

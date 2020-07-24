@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function() {
     audio_processor.requestUserMedia();
 
     window.addEventListener('audio-data', function (e) {
-      console.log(e.detail);
+      // console.log(e.detail);
       updateNote(e.detail.note, e.detail.octave);
       updateDelta(e.detail.frequency, e.detail.semitonesFromA4);
     }, false);
