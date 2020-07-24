@@ -8,8 +8,8 @@ A simple JavaScript based Guitar Tuner for KaiOS phones, technically mostly base
 ### Used Libraries
 
 * [Guitar Tuner](https://github.com/googlearchive/guitar-tuner/)
-** Copyright 2015 Google Inc.
-** Licensed under [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt)
+  * Copyright 2015 Google Inc.
+  * Licensed under [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ### Artwork
 
