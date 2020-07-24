@@ -5,6 +5,8 @@ A simple JavaScript based Guitar Tuner for KaiOS phones, technically mostly base
 
 ## LICENSE
 
+If not specified otherwise in the file header, all code is licensed under [GPL-3.0 License ](/LICENSE)
+
 ### Used Libraries
 
 * [Guitar Tuner](https://github.com/googlearchive/guitar-tuner/)
