@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "name": "tuner",
-  "description": "A simple guitar tuner",
+  "name": "Guitar Tuner",
+  "description": "A simple Guitar Tuner",
   "launch_path": "/index.html",
   "icons": {
     "16": "/img/icons/icon16x16.png",
