@@ -5,10 +5,8 @@
   "launch_path": "/index.html",
   "origin": "app://guitar-tuner.derhagen.eu",
   "icons": {
-    "16": "/img/icons/icon16x16.png",
-    "48": "/img/icons/icon48x48.png",
-    "60": "/img/icons/icon60x60.png",
-    "128": "/img/icons/icon128x128.png"
+    "56": "/img/icons/GuiTuner_56.png",
+    "112": "/img/icons/GuiTuner_112.png"
   },
   "developer": {
     "name": "derhagen",

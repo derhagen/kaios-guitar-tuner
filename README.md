@@ -15,4 +15,6 @@ If not specified otherwise in the file header, all code is licensed under [GPL-3
 
 ### Artwork
 
-Guitar Icon by [Rones](https://openclipart.org/artist/rones), licensed under [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+Icon by [FabianOvrWrt](https://github.com/FabianOvrWrt), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Donate to FabianOvrWrt if you like our new icon: https://paypal.me/OvrWrt
